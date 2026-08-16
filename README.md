@@ -52,3 +52,23 @@ Win Rate de la estrategia: 46.81%
 --------------------------------------------------
 ```
 Aunque el bot es rentable, mantener el activo base (Oro Físico) sin tocarlo duplicó el rendimiento del algoritmo algorítmico, demostrando que operar en contra de activos alcistas destruye valor.
+
+### 3. Bot 1D vs B&H vs Andalejo since 2018.ipynb (El test definitivo)
+
+En este script se integra mi portafolio de inversión personal estructurado en ETFs frente al Bot y frente a la tenencia pasiva del Oro. Se adjuntan dos simulaciones visuales críticas:
+
+Gráfico desde 2023: Muestra el comportamiento desde el inicio real de mi estrategia de portafolio actual. La línea verde (Portafolio ETF) exhibe un crecimiento robusto y constante frente a la alta volatilidad del oro físico y el rendimiento inferior del algoritmo especulativo.
+
+#### Gráfico Histórico desde 2018: La prueba ácida. 
+
+Mientras que el algoritmo (línea roja) quedó completamente estancado alrededor del capital inicial ($1000) atrapado por la ineficiencia de los cruces retrasados, el portafolio de inversión estructural multiplicó el capital por cuatro, superando a todas las métricas de trading automatizado.
+
+Imagenes de resultados adjuntos
+
+🛠️ Requisitos Técnicos
+
+Para ejecutar estos notebooks localmente, asegúrate de tener instaladas las siguientes dependencias en tu entorno de Python:
+
+Bash
+
+pip install pandas yfinance pandas-ta matplotlib numpy
