@@ -59,11 +59,28 @@ En este script se integra mi portafolio de inversión personal estructurado en E
 
 Gráfico desde 2023: Muestra el comportamiento desde el inicio real de mi estrategia de portafolio actual. La línea verde (Portafolio ETF) exhibe un crecimiento robusto y constante frente a la alta volatilidad del oro físico y el rendimiento inferior del algoritmo especulativo.
 
+```text
+📊 COMPARATIVA DE RENDIMIENTO (Desde 2023-08-03)
+-------------------------------------------------------
+Buy & Hold Oro             : 128.75%
+Bot EMA 9/21 (Oro)         : 63.08%
+Mi Portafolio Estructural  : 112.35%
+-------------------------------------------------------
+```
 #### Gráfico Histórico desde 2018: La prueba ácida. 
 
 Mientras que el algoritmo (línea roja) quedó completamente estancado alrededor del capital inicial ($1000) atrapado por la ineficiencia de los cruces retrasados, el portafolio de inversión estructural multiplicó el capital por cuatro, superando a todas las métricas de trading automatizado.
 
-Imagenes de resultados adjuntos
+```text
+-------------------------------------------------------
+📊 COMPARATIVA DE RENDIMIENTO (Desde 2018-01-01)
+-------------------------------------------------------
+Buy & Hold Oro             : 232.71%
+Bot EMA 9/21 (Oro)         : 8.43%
+Mi Portafolio Estructural  : 300.50%
+-------------------------------------------------------
+```
+Imagenes de resultados adjunto en los resultados.
 
 🛠️ Requisitos Técnicos
 
