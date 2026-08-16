@@ -37,7 +37,7 @@ Win Rate estimado      : 43.22%
 
 A simple vista parece un resultado positivo, pero la alta frecuencia (199 operaciones en dos meses) expone el capital a un desgaste operativo insostenible a largo plazo.
 
-2. Bot 1D since 2022.ipynb
+### 2. Bot 1D since 2022.ipynb
 Elevamos la temporalidad a gráficos Diarios (1D) desde enero de 2022. Al eliminar el ruido de los 15 minutos, el bot se convierte en un seguidor de tendencias
 macroeconómicas.
 
