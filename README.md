@@ -33,13 +33,15 @@ Rendimiento Buy & Hold : -1.17%
 Rendimiento del Bot    : 3.57%
 Win Rate estimado      : 43.22%
 ----------------------------------------
-
+```
 
 A simple vista parece un resultado positivo, pero la alta frecuencia (199 operaciones en dos meses) expone el capital a un desgaste operativo insostenible a largo plazo.
 
 2. Bot 1D since 2022.ipynb
-Elevamos la temporalidad a gráficos Diarios (1D) desde enero de 2022. Al eliminar el ruido de los 15 minutos, el bot se convierte en un seguidor de tendencias macroeconómicas.
+Elevamos la temporalidad a gráficos Diarios (1D) desde enero de 2022. Al eliminar el ruido de los 15 minutos, el bot se convierte en un seguidor de tendencias
+macroeconómicas.
 
+```text
 --------------------------------------------------
 📊 RESULTADOS DESDE 2022-01-01 (1d)
 --------------------------------------------------
@@ -48,5 +50,5 @@ Rendimiento Buy & Hold : 145.26%
 Rendimiento de Bot     : 65.86%
 Win Rate de la estrategia: 46.81%
 --------------------------------------------------
-
+```
 Aunque el bot es rentable, mantener el activo base (Oro Físico) sin tocarlo duplicó el rendimiento del algoritmo algorítmico, demostrando que operar en contra de activos alcistas destruye valor.
