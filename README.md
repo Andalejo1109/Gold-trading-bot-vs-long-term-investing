@@ -17,9 +17,47 @@ Tras simular múltiples escenarios temporales (desde el intradía hasta el largo
 
 ---
 
+## 📘 Apéndice laboratorio — la misma idea, explicada para quien arranca
+
+Si eres nuevo en inversiones, el mensaje de este repo se puede resumir así:
+
+> **“Entrar y salir” con una regla automática (medias móviles) suena a protección… pero a menudo te saca del mercado justo cuando más sube.**
+
+### ¿Qué es una media móvil EMA 9/21?
+
+Piensa en dos termómetros del precio:
+
+- La **EMA 9** mira los últimos ~9 días (reacciona rápido).
+- La **EMA 21** mira ~21 días (reacciona más lento).
+
+Cuando la rápida queda **por encima** de la lenta, la regla dice “tendencia alcista → quédate invertido”.  
+Cuando queda **por debajo**, dice “se enfrió → vete a efectivo”.
+
+Eso es **market timing**: no es “elegir buenos activos”, es **decidir cuándo estar dentro o fuera**.
+
+### Lo que ya vimos con el oro (notebooks de este repo)
+
+En oro, el bot EMA 9/21 pierde contra **comprar y mantener** a plazos largos: operas más, pagas más fricción y te pierdes tramos alcistas.
+
+### Lo que añadimos en el apéndice (core diversificado, 2013–2026)
+
+Aplicamos la **misma lógica de timing** al portafolio core (SPYG / SMH / BRK.B / IEMG / VTI), con el mismo capital el día 1, costos tipográficos y sin mirar el futuro (señal hoy → opera mañana).
+
+**Resultado en una línea:** el buy-and-hold del core terminó cerca de **$300k**; el timing EMA 9/21 cerca de **$91k**. El bot bajó un poco la peor caída, pero pagó ese “colchón” con ~$200k menos al final.
+
+> **Etiqueta:** es un **laboratorio**, no una orden de trading ni un cambio al mix operativo.
+
+📄 Lee el desarrollo completo (glosario, reglas, tablas y limitaciones) aquí:  
+**[APPENDIX_LAB_EMA_9_21_VS_CORE.md](./APPENDIX_LAB_EMA_9_21_VS_CORE.md)**
+
+---
+
 ## 📂 Contenido del Repositorio
 
-Este repositorio contiene 3 Notebooks de Jupyter evaluando la evolución de la estrategia con distintos horizontes temporales:
+Este repositorio contiene 3 Notebooks de Jupyter evaluando la evolución de la estrategia con distintos horizontes temporales, más el apéndice laboratorio del core:
+
+### 0. `APPENDIX_LAB_EMA_9_21_VS_CORE.md` (nuevo)
+Misma pregunta del bot (EMA 9/21) aplicada al **portafolio core** 2013–2026, escrita para lectores novatos. Veredicto: timing falsificado frente a buy-and-hold; **no candidato al mix**.
 
 ### 1. `bot trading 15min.ipynb`
 Simulación de la estrategia de cruce de medias EMA 9/21 en un entorno intradiario altamente ruidoso (intervalos de 15 minutos) durante los últimos 60 días, aplicando costos de transacción.
@@ -82,10 +120,19 @@ Mi Portafolio Estructural  : 300.50%
 ```
 Imagenes de resultados adjunto en los resultados.
 
-🛠️ Requisitos Técnicos
+## 🛠️ Requisitos Técnicos
 
 Para ejecutar estos notebooks localmente, asegúrate de tener instaladas las siguientes dependencias en tu entorno de Python:
 
-Bash
-
+```bash
 pip install pandas yfinance pandas-ta matplotlib numpy
+```
+
+## Autor
+
+Andrés Alejandro Rodríguez Lozano — economista y científico de datos.  
+[andalejo1109.github.io](https://andalejo1109.github.io/) — eToro [@Andalejo1109](https://etoro.tw/4lkmjxn)
+
+## Licencia
+
+MIT. Educational use. Not investment advice.
